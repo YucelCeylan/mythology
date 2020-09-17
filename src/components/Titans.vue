@@ -15,7 +15,7 @@
                     <template slot="title">
                         <i class="fas fa-mars"></i>Kronos
                     </template>
-                    <div>Zamana hükmeden titandır.</div>
+                    <div>Uranos ve Gaia'nın en küçük oğludur. Zamana hükmeden titandır. Babası Uranos'un hükmüne son vererek onu Tartaros'a hapsetmiştir.</div>
                 </el-collapse-item>
                 <el-collapse-item name="2">
                     <template slot="title">
