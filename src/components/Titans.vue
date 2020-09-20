@@ -15,7 +15,9 @@
                     <template slot="title">
                         <i class="fas fa-mars"></i>Kronos
                     </template>
-                    <div>Uranos ve Gaia'nın en küçük oğludur. Zamana hükmeden titandır. Babası Uranos'un hükmüne son vererek onu Tartaros'a hapsetmiştir.</div>
+                    <div>
+                        <Uranos/> ve <Gaia/>'nın en küçük oğludur. Zamana hükmeden titandır. Babası Uranos'un hükmüne son vererek onu Tartaros'a hapsetmiş ve ikinci nesil tanrıların devrini başlatmıştır.
+                    </div>
                 </el-collapse-item>
                 <el-collapse-item name="2">
                     <template slot="title">
@@ -93,18 +95,22 @@
 </template>
 
 <script>
-  export default {
-    name: 'titans',
-    props: {
-    },
-    data() {
-      return {
-        
-      };
-    },
-    methods: {
+    import Uranos from '../names/Uranos';
+    import Gaia from '../names/Gaia';
+    export default {
+        name: 'titans',
+        components: { Uranos, Gaia},
+
+        props: {
+        },
+        data() {
+            return {
+                
+            };
+        },
+        methods: {
+        }
     }
-  }
 </script>
 
 <style>

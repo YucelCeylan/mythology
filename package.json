@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "element-ui": "^2.7.2",
+    "element-ui": "^2.13.2",
     "vue": "^2.6.6",
     "vue-graph": "^0.8.4"
   },
