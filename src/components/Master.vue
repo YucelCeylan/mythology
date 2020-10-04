@@ -1,11 +1,7 @@
 <template>
   <div>
     <div class="block" :span="24">
-      <el-carousel trigger="click" height="150px" type='card' :interval="7000">
-        <el-carousel-item v-for="item in 4" :key="item">
-          <h3>{{ item }}</h3>
-        </el-carousel-item>
-      </el-carousel>
+      <el-image style="width: %100; height: 100%" fit="none" :src="masterTopJpg" ></el-image>
       <el-menu :default-active="activeIndex" class="main_menu" mode="horizontal" @select="changeTab" background-color="black" text-color = "#fff" active-text-color = "#00a81c">
         <el-menu-item index="1">Genel</el-menu-item>
         <el-menu-item index="2">Titanlar</el-menu-item>
@@ -36,6 +32,7 @@
 
     data() {
       return {
+        masterTopJpg: require('@/assets/master_top.jpg'),
         activeIndex: '1'
       };
     },
