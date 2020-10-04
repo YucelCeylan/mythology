@@ -12,6 +12,7 @@
       </el-menu>
     </div>
     <div>
+      <general v-if="activeIndex == '1'"/>
       <titans v-if="activeIndex == '2'"/>
       <history v-if="activeIndex == '6'"/>
     </div>
@@ -21,11 +22,12 @@
 <script>
   import History from './History.vue';
   import Titans from './Titans.vue';
+  import General from './General.vue';
 
   export default {
     name: 'master',
 
-    components: { History, Titans },
+    components: { History, Titans, General },
 
     props: {
     },

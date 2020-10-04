@@ -10,7 +10,7 @@
             <el-col :span="16">
               <div style="padding-right:10px; text-align: justify; word-break: normal;">
                 <span>Yeryüzünü, doğayı ve toprağı simgeleyen birinci nesil tanrıdır. Doğa ana ve tüm tanrıların anası olarak
-                  görülmüştür. Kaos'un getirdiği düzensizlikten doğarak evrene düzeni getirmiştir. Daha sonra <Uranos/>'u, Dağları 
+                  görülmüştür. Khaos'un getirdiği düzensizlikten doğarak evrene düzeni getirmiştir. Daha sonra Uranos'u, Dağları 
                   ve Denizi yaratmıştır. Uranos(Gök) ile birleşerek Titanlar'ı, Tepegözler'i ve Hekatonkheir'leri doğurmuştur.</span>
               </div>
             </el-col>
@@ -24,10 +24,8 @@
 </template>
 
 <script>
-  import Uranos from './Uranos';
   export default {
     name: 'Gaia',
-    components: { Uranos },
     props: {
     },
     data() {
