@@ -1,6 +1,9 @@
-# mythology
+# Mythology
+
+Vue yardımıyla etkileşimli bir site oluşturularak ilk etapta Yunan Mitosunun öğrenilmesinin kolaylaştırılması amaçlanmaktadır.
 
 ## Project setup
+
 ```
 npm install
 ```
